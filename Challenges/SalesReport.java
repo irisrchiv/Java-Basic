@@ -10,10 +10,11 @@ class SalesReport {
 
         for (int i = 0; i < sales.length; i++) {
             int total = 0;
-            for (int j = 0; j < sales[i].length; i++) {
+            for (int j = 0; j < sales[i].length; j++) {
                 total += sales[i][j];
             }      
             System.out.println("Total sales for store: " + (i+1));      
         }
     }
 }
+
